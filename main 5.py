@@ -1,0 +1,1 @@
+import base64;x=input("Encode what text?\n").encode('ascii');x=base64.b64encode(x);y=str(x).replace("'","")+"=";f=open("hello",'w');f.write(y[1:len(y)-1]);f.close()
